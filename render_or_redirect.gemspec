@@ -6,6 +6,7 @@ require "version"
 Gem::Specification.new do |s|
   s.name = "render_or_redirect"
   s.version = RenderOrRedirect::VERSION
+  s.authors     = ["BarkBox"]
   s.summary = %q{Render based on format. If a redirect specified, will redirect for html format, otherwise includes url in response for a json response.}
   s.files = Dir["{lib}/**/*"] + ["README"]
   s.require_paths = ["lib"]
